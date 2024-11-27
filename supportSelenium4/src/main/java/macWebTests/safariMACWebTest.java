@@ -1,6 +1,6 @@
 // Created by Christopher Alton
-// Version 1.0
-// Updated 07-29-2022
+// Version 3.0
+// Updated 11-26-2024
 package macWebTests;
 
 //****** These are the JAVA dependencies required to run this test ******
@@ -68,7 +68,7 @@ public class safariMACWebTest {
 
 		String myWUT = "https://the-internet.herokuapp.com/login";
 		String projectName = "support-MAC-webTest";
-		String projectVersion = "1";
+		String projectVersion = "3";
 		String scriptname = null;
 
 		Map<String, Object> perfectoOptions = new HashMap<>();

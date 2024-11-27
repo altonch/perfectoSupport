@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>perfectoSupport</groupId>
-	<artifactId>appium1Tests</artifactId>
+	<artifactId>supportAppium1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
 		<reportium-sdk.version>2.3.1</reportium-sdk.version>

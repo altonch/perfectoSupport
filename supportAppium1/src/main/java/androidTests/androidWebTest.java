@@ -73,8 +73,6 @@ private static AndroidDriver driver;
 		String projectName = "support-androidWebTest";
 		String projectVersion = "3";
 		String browserName = "chrome";
-
-// ****** This section declares the capabilities the test will pass to the cloud ******
 		
 		Map<String, Object> perfectoOptions = new HashMap<>();
 

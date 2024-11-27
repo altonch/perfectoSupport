@@ -36,26 +36,36 @@ public class iOSWebTest {
 
 private static IOSDriver driver;
 
-// Declare true or false on the networkVirtualization string
-// Set this to True to capture packets using Network Virtualization
-// Set this to False to disable Network Virtualization
-// Network Virtualization does not work on hybrid HSS - Hybrid clouds must have false set here
+//****** This section controls the network virtualization function. ******
+//****** Declare true or false on the networkVirtualization string ****
+//****** Set this to true to capture packets using Network Virtualization ******
+//****** Set this to false to disable Network Virtualization ******
+//****** Network Virtualization does not work on hybrid HSS ******
+//****** For Hybrid clouds, this value must be set to false ******
 	private static String networkVirtualization = "false";
 
 	public static void main(String[] args) throws MalformedURLException, IOException, UnknownHostException {
-	
-		logins login = new logins();
 		System.out.println("Run started");
 		
-// Declare your host, token, device under test
-// The sessionID is only needed if you are doing a shared device session
+//****** This section handles your host cloud URL, security token and device ID ******
+//****** We call our host URL and security token from the logins feature file ******
+//****** located under the myUtilities Class ******
+//****** Declare your host URL in the (host) string ******
+//****** Declare your security token in the (myToken) string ******
+//****** Declare your device ID in the (myDUT) string******
+
+		logins login = new logins();
 
 		String host = login.allstate;
 		String myToken = login.allstatest;
 		String myDUT = "00008110-000A5D2C147A801E";
-
-//  ************************* Don't change anything below this.  *************************
-//  ************************* The test will auto run for you.    *************************
+		
+//****** This section handles the variables that configure the test capabilities ******
+//****** The myWUT string declares the Website Under Test (myWUT) ******
+//****** The scriptname string declares the name of the test (scriptname) ******
+//****** The projectName string declares the project for the test (projectName) ******
+//****** The projectVersion string declares the version of the project (projectVersion) ******
+//****** The browserName string declares the browser we are using (browserName) ******
 
 		String myWUT = "https://the-internet.herokuapp.com/login";
 		String bundleid = "";

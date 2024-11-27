@@ -1,2 +1,12 @@
-# perfectoSupport
-This is a repository containing the basic known-good tests that the Perfecto support team use for troubleshooting.
+# Perfecto Support Tests
+This is a repository containing the known-good tests that you can use for testing basic functionality
+of your connection to the Perfecto cloud lab.
+
+# Support Provided
+These are known-good samples provided as-is.
+
+These are Not an Official Perfecto Product.
+
+Please do not contact the Perfecto support team for assistance with these tests.
+
+Use these at your own risk.

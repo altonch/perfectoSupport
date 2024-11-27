@@ -1,4 +1,4 @@
-# Perfecto Support Tests
+# Perfecto Sample Tests
 This is a repository containing known-good tests for testing basic functionality
 of your connection to the Perfecto cloud lab.
 

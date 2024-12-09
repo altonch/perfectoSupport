@@ -247,9 +247,7 @@ private static AndroidDriver driver;
 // ****** This is the code block for Logging Into the Website under test ******
 // ****** We will action findElement commands to send text (sendKeys) and ******
 // ****** to action click commands on the page under test ******
-			
-			driver.hideKeyboard();
-			
+						
 			reportiumClient.stepStart("Type in userName");
 			System.out.println("Type in userName");
 			driver.findElement(By.xpath(userPath)).sendKeys(userName);

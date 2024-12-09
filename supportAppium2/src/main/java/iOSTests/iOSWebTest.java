@@ -56,9 +56,9 @@ private static IOSDriver driver;
 
 		logins login = new logins();
 
-		String host = login.allstate;
-		String myToken = login.allstatest;
-		String myDUT = "00008110-000A5D2C147A801E";
+		String host = login.trial;
+		String myToken = login.trialst;
+		String myDUT = "";
 		
 //****** This section handles the variables that configure the test capabilities ******
 //****** The myWUT string declares the Website Under Test (myWUT) ******

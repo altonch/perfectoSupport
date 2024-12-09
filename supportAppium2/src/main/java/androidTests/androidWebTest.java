@@ -246,7 +246,7 @@ private static AndroidDriver driver;
 // ****** These are the variables used for the following activities:  ******
 // ****** Variables for xPath locators ******
 // ****** Variables for the username and password data
-// ****** We use this for Clean Code Writing in your findElement copmmands ******
+// ****** We use this for Clean Code Writing in your findElement commands ******
 			
 			String userPath = "//*[@id=\"username\"]";
 			String passPath = "//*[@id=\"password\"]";
